@@ -1,0 +1,26 @@
+id,name,is_active_customer,contracted_licences,created_at
+org_001,Organisation 001,True,10,2025-09-21 00:00:00+0000
+org_002,Organisation 002,True,20,2025-09-09 00:00:00+0000
+org_003,Organisation 003,True,10,2025-09-04 00:00:00+0000
+org_004,Organisation 004,True,5,2025-09-02 00:00:00+0000
+org_005,Organisation 005,True,5,2025-09-08 00:00:00+0000
+org_006,Organisation 006,True,40,2025-09-21 00:00:00+0000
+org_007,Organisation 007,False,25,2025-09-19 00:00:00+0000
+org_008,Organisation 008,True,15,2025-09-01 00:00:00+0000
+org_009,Organisation 009,True,25,2025-09-11 00:00:00+0000
+org_010,Organisation 010,True,10,2025-09-11 00:00:00+0000
+org_011,Organisation 011,False,30,2025-09-04 00:00:00+0000
+org_012,Organisation 012,False,25,2025-09-20 00:00:00+0000
+org_013,Organisation 013,False,10,2025-09-15 00:00:00+0000
+org_014,Organisation 014,True,10,2025-09-13 00:00:00+0000
+org_015,Organisation 015,True,30,2025-09-21 00:00:00+0000
+org_016,Organisation 016,True,5,2025-09-03 00:00:00+0000
+org_017,Organisation 017,False,10,2025-09-10 00:00:00+0000
+org_018,Organisation 018,True,40,2025-09-04 00:00:00+0000
+org_019,Organisation 019,True,30,2025-09-21 00:00:00+0000
+org_020,Organisation 020,True,20,2025-09-12 00:00:00+0000
+org_021,Organisation 021,True,10,2025-09-21 00:00:00+0000
+org_022,Organisation 022,True,20,2025-09-06 00:00:00+0000
+org_023,Organisation 023,False,25,2025-09-13 00:00:00+0000
+org_024,Organisation 024,True,20,2025-09-21 00:00:00+0000
+org_025,Organisation 025,False,20,2025-09-02 00:00:00+0000

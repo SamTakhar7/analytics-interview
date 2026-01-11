@@ -1,0 +1,7 @@
+autogen_interview:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: .warehouse/interview.duckdb
+      threads: 4

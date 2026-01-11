@@ -1,0 +1,50 @@
+
+  
+    
+    
+
+    create  table
+      "interview"."main"."silver_toolbar_transformations__dbt_tmp"
+  
+    as (
+      with src as (
+    select *
+    from "interview"."main"."raw_toolbar_transformations"
+),
+
+typed as (
+    select
+        cast(event_id as varchar) as event_id,
+        cast(user_id as varchar) as user_id,
+        cast(org_id as varchar) as org_id,
+        cast(event_timestamp as timestamp) as event_timestamp,
+        cast(transformation_type as varchar) as transformation_type,
+        cast(input_word_count as integer) as input_word_count
+    from src
+),
+
+deduped as (
+    select *
+    from (
+        select
+            *,
+            row_number() over (
+                partition by event_id
+                order by event_timestamp desc nulls last
+            ) as rn
+        from typed
+    ) t
+    where rn = 1
+)
+
+select
+    event_id,
+    user_id,
+    org_id,
+    event_timestamp,
+    transformation_type,
+    input_word_count
+from deduped
+    );
+  
+  

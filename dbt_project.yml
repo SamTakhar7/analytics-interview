@@ -1,0 +1,33 @@
+name: autogen_interview
+version: "1.0.0"
+config-version: 2
+
+profile: autogen_interview
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+seed-paths: ["seeds"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+  - "logs"
+
+models:
+  autogen_interview:
+    +materialized: view
+
+    bronze:
+      +materialized: view
+      +tags: ["bronze"]
+
+    silver:
+      +materialized: table
+      +tags: ["silver"]
+
+    gold:
+      +materialized: table
+      +tags: ["gold"]

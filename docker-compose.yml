@@ -1,0 +1,9 @@
+services:
+  dbt:
+    build: .
+    working_dir: /usr/app
+    volumes:
+      - ./:/usr/app
+    environment:
+      - DBT_PROFILES_DIR=/usr/app
+    command: ["dbt", "run"]

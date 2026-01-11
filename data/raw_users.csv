@@ -1,0 +1,356 @@
+id,org_id,email,job_title,is_autogenai_employee,is_licensed_user,created_at
+user_0001,org_001,user_0001@contoso.com,Analyst,False,True,2025-10-11 00:00:00+0000
+user_0002,org_001,user_0002@beta.io,Manager,False,True,2025-11-16 00:00:00+0000
+user_0003,org_001,user_0003@acme.co.uk,Analyst,False,True,2025-10-20 00:00:00+0000
+user_0004,org_001,user_0004@beta.io,Analyst,False,True,2025-10-25 00:00:00+0000
+user_0005,org_001,user_0005@beta.io,Analyst,False,False,2025-10-16 00:00:00+0000
+user_0006,org_001,user_0006@example.com,Proposal Writer,False,False,2025-10-22 00:00:00+0000
+user_0007,org_001,user_0007@acme.co.uk,Bid Manager,False,True,2025-10-31 00:00:00+0000
+user_0008,org_001,user_0008@contoso.com,Account Executive,False,True,2025-10-15 00:00:00+0000
+user_0009,org_001,user_0009@example.com,Analyst,False,True,2025-10-26 00:00:00+0000
+user_0010,org_001,user_0010@beta.io,Account Executive,False,True,2025-11-08 00:00:00+0000
+user_0011,org_001,user_0011@acme.co.uk,Manager,False,False,2025-10-18 00:00:00+0000
+user_0012,org_001,user_0012@globex.net,Bid Manager,False,True,2025-10-07 00:00:00+0000
+user_0013,org_001,user_0013@beta.io,Proposal Writer,False,True,2025-11-15 00:00:00+0000
+user_0014,org_001,user_0014@beta.io,Director,False,True,2025-09-30 00:00:00+0000
+user_0015,org_001,user_0015@globex.net,Solutions Consultant,False,True,2025-11-19 00:00:00+0000
+user_0016,org_001,user_0016@example.com,Director,False,False,2025-09-22 00:00:00+0000
+user_0017,org_001,user_0017@beta.io,Analyst,False,True,2025-11-11 00:00:00+0000
+user_0018,org_001,user_0018@example.com,Bid Manager,False,True,2025-11-20 00:00:00+0000
+user_0019,org_001,user_0019@globex.net,Solutions Consultant,False,True,2025-11-08 00:00:00+0000
+user_0020,org_001,user_0020@globex.net,Analyst,False,True,2025-11-20 00:00:00+0000
+user_0021,org_002,user_0021@globex.net,Manager,False,True,2025-09-22 00:00:00+0000
+user_0022,org_002,user_0022@contoso.com,Solutions Consultant,False,True,2025-09-28 00:00:00+0000
+user_0023,org_002,user_0023@globex.net,Bid Manager,False,True,2025-11-05 00:00:00+0000
+user_0024,org_002,user_0024@example.com,Proposal Writer,False,True,2025-09-30 00:00:00+0000
+user_0025,org_002,user_0025@example.com,Bid Manager,False,True,2025-09-09 00:00:00+0000
+user_0026,org_002,user_0026@example.com,Proposal Writer,False,True,2025-11-05 00:00:00+0000
+user_0027,org_002,user_0027@contoso.com,Analyst,False,True,2025-09-26 00:00:00+0000
+user_0028,org_002,user_0028@contoso.com,Solutions Consultant,False,True,2025-10-15 00:00:00+0000
+user_0029,org_002,user_0029@example.com,Solutions Consultant,False,True,2025-09-21 00:00:00+0000
+user_0030,org_002,user_0030@contoso.com,Manager,False,True,2025-10-05 00:00:00+0000
+user_0031,org_002,user_0031@example.com,Director,False,True,2025-10-20 00:00:00+0000
+user_0032,org_002,user_0032@example.com,Solutions Consultant,False,True,2025-11-03 00:00:00+0000
+user_0033,org_002,user_0033@contoso.com,Director,False,True,2025-09-17 00:00:00+0000
+user_0034,org_002,user_0034@example.com,Analyst,False,False,2025-11-07 00:00:00+0000
+user_0035,org_003,user_0035@globex.net,Director,False,False,2025-09-07 00:00:00+0000
+user_0036,org_003,user_0036@acme.co.uk,Proposal Writer,False,True,2025-10-28 00:00:00+0000
+user_0037,org_003,user_0037@contoso.com,Bid Manager,False,True,2025-10-29 00:00:00+0000
+user_0038,org_003,user_0038@beta.io,Account Executive,False,True,2025-09-28 00:00:00+0000
+user_0039,org_003,user_0039@globex.net,Proposal Writer,False,True,2025-10-01 00:00:00+0000
+user_0040,org_003,user_0040@acme.co.uk,Analyst,False,True,2025-09-22 00:00:00+0000
+user_0041,org_003,user_0041@beta.io,Analyst,False,True,2025-09-07 00:00:00+0000
+user_0042,org_003,user_0042@globex.net,Bid Manager,False,False,2025-11-01 00:00:00+0000
+user_0043,org_003,user_0043@acme.co.uk,Director,False,True,2025-10-28 00:00:00+0000
+user_0044,org_004,user_0044@example.com,Analyst,False,True,2025-09-27 00:00:00+0000
+user_0045,org_004,user_0045@example.com,Analyst,False,True,2025-10-10 00:00:00+0000
+user_0046,org_004,user_0046@globex.net,Manager,False,True,2025-10-08 00:00:00+0000
+user_0047,org_004,user_0047@beta.io,Manager,False,True,2025-10-17 00:00:00+0000
+user_0048,org_004,user_0048@beta.io,Bid Manager,False,False,2025-10-13 00:00:00+0000
+user_0049,org_004,user_0049@contoso.com,Bid Manager,False,True,2025-09-02 00:00:00+0000
+user_0050,org_004,user_0050@globex.net,Account Executive,False,True,2025-09-06 00:00:00+0000
+user_0051,org_004,user_0051@example.com,Proposal Writer,False,True,2025-10-28 00:00:00+0000
+user_0052,org_004,user_0052@globex.net,Director,False,True,2025-09-30 00:00:00+0000
+user_0053,org_004,user_0053@globex.net,Director,True,False,2025-10-13 00:00:00+0000
+user_0054,org_004,user_0054@beta.io,Proposal Writer,False,True,2025-10-07 00:00:00+0000
+user_0055,org_005,user_0055@example.com,Account Executive,False,True,2025-09-15 00:00:00+0000
+user_0056,org_005,user_0056@acme.co.uk,Manager,False,True,2025-10-16 00:00:00+0000
+user_0057,org_005,user_0057@beta.io,Director,False,True,2025-11-01 00:00:00+0000
+user_0058,org_005,user_0058@example.com,Bid Manager,False,True,2025-09-11 00:00:00+0000
+user_0059,org_005,user_0059@beta.io,Account Executive,False,True,2025-09-08 00:00:00+0000
+user_0060,org_005,user_0060@contoso.com,Bid Manager,False,True,2025-09-18 00:00:00+0000
+user_0061,org_005,user_0061@example.com,Proposal Writer,False,True,2025-09-15 00:00:00+0000
+user_0062,org_005,user_0062@example.com,Proposal Writer,False,True,2025-10-12 00:00:00+0000
+user_0063,org_005,user_0063@acme.co.uk,Director,False,True,2025-10-05 00:00:00+0000
+user_0064,org_005,user_0064@example.com,Proposal Writer,False,True,2025-11-02 00:00:00+0000
+user_0065,org_005,user_0065@example.com,Director,False,True,2025-10-20 00:00:00+0000
+user_0066,org_005,user_0066@globex.net,Proposal Writer,False,False,2025-10-04 00:00:00+0000
+user_0067,org_006,user_0067@acme.co.uk,Manager,False,True,2025-11-11 00:00:00+0000
+user_0068,org_006,user_0068@beta.io,Manager,False,True,2025-11-19 00:00:00+0000
+user_0069,org_006,user_0069@acme.co.uk,Bid Manager,False,True,2025-11-15 00:00:00+0000
+user_0070,org_006,user_0070@example.com,Director,False,True,2025-10-15 00:00:00+0000
+user_0071,org_006,user_0071@contoso.com,Director,False,True,2025-11-18 00:00:00+0000
+user_0072,org_006,user_0072@acme.co.uk,Proposal Writer,True,False,2025-10-05 00:00:00+0000
+user_0073,org_006,user_0073@beta.io,Director,False,True,2025-10-16 00:00:00+0000
+user_0074,org_006,user_0074@beta.io,Director,False,True,2025-10-08 00:00:00+0000
+user_0075,org_006,user_0075@beta.io,Account Executive,False,True,2025-10-25 00:00:00+0000
+user_0076,org_006,user_0076@globex.net,Bid Manager,False,True,2025-10-02 00:00:00+0000
+user_0077,org_007,user_0077@beta.io,Analyst,False,True,2025-10-16 00:00:00+0000
+user_0078,org_007,user_0078@example.com,Account Executive,False,True,2025-10-21 00:00:00+0000
+user_0079,org_007,user_0079@contoso.com,Director,True,False,2025-09-21 00:00:00+0000
+user_0080,org_007,user_0080@acme.co.uk,Manager,False,True,2025-10-23 00:00:00+0000
+user_0081,org_007,user_0081@beta.io,Bid Manager,False,True,2025-11-16 00:00:00+0000
+user_0082,org_007,user_0082@beta.io,Account Executive,False,True,2025-11-04 00:00:00+0000
+user_0083,org_007,user_0083@beta.io,Manager,False,True,2025-10-14 00:00:00+0000
+user_0084,org_007,user_0084@contoso.com,Analyst,False,False,2025-11-18 00:00:00+0000
+user_0085,org_007,user_0085@beta.io,Account Executive,False,True,2025-10-25 00:00:00+0000
+user_0086,org_007,user_0086@acme.co.uk,Manager,False,True,2025-10-07 00:00:00+0000
+user_0087,org_007,user_0087@contoso.com,Analyst,False,True,2025-10-09 00:00:00+0000
+user_0088,org_007,user_0088@acme.co.uk,Manager,False,True,2025-10-19 00:00:00+0000
+user_0089,org_007,user_0089@globex.net,Director,False,True,2025-10-29 00:00:00+0000
+user_0090,org_007,user_0090@beta.io,Bid Manager,False,True,2025-10-04 00:00:00+0000
+user_0091,org_007,user_0091@acme.co.uk,Director,False,True,2025-09-21 00:00:00+0000
+user_0092,org_007,user_0092@contoso.com,Proposal Writer,False,True,2025-09-23 00:00:00+0000
+user_0093,org_007,user_0093@contoso.com,Manager,False,True,2025-11-03 00:00:00+0000
+user_0094,org_008,user_0094@example.com,Director,False,True,2025-09-01 00:00:00+0000
+user_0095,org_008,user_0095@globex.net,Director,False,True,2025-10-15 00:00:00+0000
+user_0096,org_008,user_0096@contoso.com,Analyst,False,True,2025-09-08 00:00:00+0000
+user_0097,org_008,user_0097@globex.net,Solutions Consultant,False,True,2025-10-06 00:00:00+0000
+user_0098,org_008,user_0098@globex.net,Solutions Consultant,False,False,2025-10-10 00:00:00+0000
+user_0099,org_008,user_0099@acme.co.uk,Account Executive,False,True,2025-10-28 00:00:00+0000
+user_0100,org_008,user_0100@acme.co.uk,Director,False,True,2025-10-19 00:00:00+0000
+user_0101,org_008,user_0101@contoso.com,Bid Manager,False,True,2025-10-04 00:00:00+0000
+user_0102,org_008,user_0102@beta.io,Analyst,False,True,2025-10-16 00:00:00+0000
+user_0103,org_008,user_0103@acme.co.uk,Proposal Writer,False,True,2025-09-06 00:00:00+0000
+user_0104,org_008,user_0104@acme.co.uk,Analyst,False,True,2025-10-16 00:00:00+0000
+user_0105,org_008,user_0105@contoso.com,Solutions Consultant,False,True,2025-09-30 00:00:00+0000
+user_0106,org_008,user_0106@globex.net,Director,False,True,2025-10-28 00:00:00+0000
+user_0107,org_008,user_0107@contoso.com,Account Executive,False,False,2025-10-07 00:00:00+0000
+user_0108,org_008,user_0108@contoso.com,Solutions Consultant,False,False,2025-10-19 00:00:00+0000
+user_0109,org_008,user_0109@globex.net,Solutions Consultant,False,False,2025-10-05 00:00:00+0000
+user_0110,org_008,user_0110@beta.io,Account Executive,False,True,2025-09-15 00:00:00+0000
+user_0111,org_008,user_0111@contoso.com,Proposal Writer,False,True,2025-10-13 00:00:00+0000
+user_0112,org_008,user_0112@globex.net,Solutions Consultant,True,False,2025-10-10 00:00:00+0000
+user_0113,org_009,user_0113@example.com,Director,False,True,2025-10-17 00:00:00+0000
+user_0114,org_009,user_0114@acme.co.uk,Proposal Writer,False,True,2025-10-10 00:00:00+0000
+user_0115,org_009,user_0115@beta.io,Account Executive,False,False,2025-10-10 00:00:00+0000
+user_0116,org_009,user_0116@contoso.com,Bid Manager,False,True,2025-10-29 00:00:00+0000
+user_0117,org_009,user_0117@globex.net,Proposal Writer,False,False,2025-10-28 00:00:00+0000
+user_0118,org_009,user_0118@example.com,Director,False,True,2025-10-22 00:00:00+0000
+user_0119,org_009,user_0119@acme.co.uk,Proposal Writer,False,True,2025-09-12 00:00:00+0000
+user_0120,org_009,user_0120@acme.co.uk,Proposal Writer,False,True,2025-09-26 00:00:00+0000
+user_0121,org_009,user_0121@beta.io,Analyst,False,True,2025-10-10 00:00:00+0000
+user_0122,org_009,user_0122@example.com,Account Executive,False,True,2025-10-28 00:00:00+0000
+user_0123,org_009,user_0123@globex.net,Account Executive,True,False,2025-09-17 00:00:00+0000
+user_0124,org_009,user_0124@contoso.com,Bid Manager,False,True,2025-10-17 00:00:00+0000
+user_0125,org_009,user_0125@acme.co.uk,Director,False,True,2025-10-18 00:00:00+0000
+user_0126,org_009,user_0126@globex.net,Analyst,False,True,2025-10-24 00:00:00+0000
+user_0127,org_009,user_0127@example.com,Account Executive,False,True,2025-10-31 00:00:00+0000
+user_0128,org_009,user_0128@globex.net,Solutions Consultant,False,True,2025-09-15 00:00:00+0000
+user_0129,org_009,user_0129@contoso.com,Manager,False,False,2025-11-02 00:00:00+0000
+user_0130,org_010,user_0130@acme.co.uk,Manager,False,True,2025-10-26 00:00:00+0000
+user_0131,org_010,user_0131@globex.net,Solutions Consultant,False,True,2025-09-28 00:00:00+0000
+user_0132,org_010,user_0132@contoso.com,Account Executive,False,True,2025-10-10 00:00:00+0000
+user_0133,org_010,user_0133@acme.co.uk,Solutions Consultant,False,True,2025-11-04 00:00:00+0000
+user_0134,org_010,user_0134@contoso.com,Account Executive,False,True,2025-09-26 00:00:00+0000
+user_0135,org_010,user_0135@contoso.com,Proposal Writer,False,True,2025-09-12 00:00:00+0000
+user_0136,org_010,user_0136@beta.io,Manager,False,False,2025-10-03 00:00:00+0000
+user_0137,org_010,user_0137@beta.io,Proposal Writer,False,True,2025-11-06 00:00:00+0000
+user_0138,org_010,user_0138@acme.co.uk,Director,False,True,2025-09-16 00:00:00+0000
+user_0139,org_010,user_0139@contoso.com,Director,False,True,2025-09-26 00:00:00+0000
+user_0140,org_010,user_0140@example.com,Proposal Writer,False,True,2025-09-12 00:00:00+0000
+user_0141,org_010,user_0141@globex.net,Account Executive,False,True,2025-09-30 00:00:00+0000
+user_0142,org_010,user_0142@globex.net,Account Executive,False,True,2025-10-08 00:00:00+0000
+user_0143,org_010,user_0143@beta.io,Account Executive,False,True,2025-09-30 00:00:00+0000
+user_0144,org_010,user_0144@globex.net,Proposal Writer,False,True,2025-09-18 00:00:00+0000
+user_0145,org_011,user_0145@contoso.com,Director,False,True,2025-10-21 00:00:00+0000
+user_0146,org_011,user_0146@globex.net,Proposal Writer,False,True,2025-10-07 00:00:00+0000
+user_0147,org_011,user_0147@acme.co.uk,Manager,False,True,2025-09-22 00:00:00+0000
+user_0148,org_011,user_0148@acme.co.uk,Analyst,False,False,2025-10-08 00:00:00+0000
+user_0149,org_011,user_0149@acme.co.uk,Bid Manager,False,True,2025-09-22 00:00:00+0000
+user_0150,org_011,user_0150@example.com,Solutions Consultant,False,True,2025-10-29 00:00:00+0000
+user_0151,org_011,user_0151@acme.co.uk,Director,False,True,2025-09-25 00:00:00+0000
+user_0152,org_011,user_0152@example.com,Bid Manager,False,True,2025-10-04 00:00:00+0000
+user_0153,org_011,user_0153@example.com,Account Executive,False,True,2025-10-10 00:00:00+0000
+user_0154,org_011,user_0154@acme.co.uk,Analyst,False,True,2025-09-09 00:00:00+0000
+user_0155,org_011,user_0155@globex.net,Solutions Consultant,False,True,2025-10-12 00:00:00+0000
+user_0156,org_012,user_0156@globex.net,Analyst,False,True,2025-10-09 00:00:00+0000
+user_0157,org_012,user_0157@globex.net,Director,False,True,2025-09-23 00:00:00+0000
+user_0158,org_012,user_0158@acme.co.uk,Proposal Writer,False,True,2025-10-03 00:00:00+0000
+user_0159,org_012,user_0159@globex.net,Solutions Consultant,False,True,2025-10-01 00:00:00+0000
+user_0160,org_012,user_0160@globex.net,Account Executive,False,True,2025-11-03 00:00:00+0000
+user_0161,org_012,user_0161@beta.io,Manager,False,True,2025-11-04 00:00:00+0000
+user_0162,org_012,user_0162@beta.io,Manager,False,True,2025-10-04 00:00:00+0000
+user_0163,org_012,user_0163@acme.co.uk,Manager,False,True,2025-11-10 00:00:00+0000
+user_0164,org_012,user_0164@beta.io,Proposal Writer,False,True,2025-09-29 00:00:00+0000
+user_0165,org_012,user_0165@beta.io,Account Executive,False,True,2025-11-09 00:00:00+0000
+user_0166,org_012,user_0166@example.com,Solutions Consultant,False,True,2025-10-18 00:00:00+0000
+user_0167,org_012,user_0167@beta.io,Bid Manager,False,True,2025-11-19 00:00:00+0000
+user_0168,org_012,user_0168@example.com,Analyst,False,True,2025-10-28 00:00:00+0000
+user_0169,org_012,user_0169@example.com,Director,False,False,2025-10-06 00:00:00+0000
+user_0170,org_012,user_0170@globex.net,Director,False,True,2025-11-14 00:00:00+0000
+user_0171,org_013,user_0171@beta.io,Proposal Writer,False,True,2025-11-06 00:00:00+0000
+user_0172,org_013,user_0172@globex.net,Proposal Writer,False,False,2025-10-15 00:00:00+0000
+user_0173,org_013,user_0173@contoso.com,Bid Manager,False,True,2025-10-22 00:00:00+0000
+user_0174,org_013,user_0174@beta.io,Bid Manager,False,True,2025-10-15 00:00:00+0000
+user_0175,org_013,user_0175@acme.co.uk,Account Executive,False,True,2025-11-08 00:00:00+0000
+user_0176,org_013,user_0176@contoso.com,Solutions Consultant,False,True,2025-10-27 00:00:00+0000
+user_0177,org_013,user_0177@beta.io,Director,False,True,2025-09-20 00:00:00+0000
+user_0178,org_013,user_0178@globex.net,Director,False,True,2025-10-10 00:00:00+0000
+user_0179,org_013,user_0179@contoso.com,Account Executive,False,True,2025-10-19 00:00:00+0000
+user_0180,org_013,user_0180@contoso.com,Proposal Writer,False,True,2025-10-24 00:00:00+0000
+user_0181,org_013,user_0181@globex.net,Manager,False,True,2025-10-02 00:00:00+0000
+user_0182,org_013,user_0182@example.com,Manager,True,False,2025-10-16 00:00:00+0000
+user_0183,org_013,user_0183@acme.co.uk,Bid Manager,False,True,2025-10-23 00:00:00+0000
+user_0184,org_013,user_0184@contoso.com,Bid Manager,False,False,2025-10-20 00:00:00+0000
+user_0185,org_013,user_0185@example.com,Manager,False,True,2025-10-14 00:00:00+0000
+user_0186,org_013,user_0186@globex.net,Solutions Consultant,False,True,2025-10-03 00:00:00+0000
+user_0187,org_013,user_0187@acme.co.uk,Proposal Writer,False,True,2025-10-15 00:00:00+0000
+user_0188,org_013,user_0188@globex.net,Director,False,False,2025-11-12 00:00:00+0000
+user_0189,org_014,user_0189@contoso.com,Account Executive,False,True,2025-09-30 00:00:00+0000
+user_0190,org_014,user_0190@example.com,Analyst,False,True,2025-11-04 00:00:00+0000
+user_0191,org_014,user_0191@contoso.com,Solutions Consultant,False,True,2025-10-20 00:00:00+0000
+user_0192,org_014,user_0192@beta.io,Solutions Consultant,False,True,2025-10-05 00:00:00+0000
+user_0193,org_014,user_0193@beta.io,Proposal Writer,False,False,2025-11-11 00:00:00+0000
+user_0194,org_014,user_0194@contoso.com,Bid Manager,False,True,2025-10-19 00:00:00+0000
+user_0195,org_014,user_0195@contoso.com,Solutions Consultant,False,True,2025-10-03 00:00:00+0000
+user_0196,org_014,user_0196@acme.co.uk,Analyst,False,True,2025-10-25 00:00:00+0000
+user_0197,org_014,user_0197@beta.io,Solutions Consultant,False,False,2025-10-20 00:00:00+0000
+user_0198,org_015,user_0198@contoso.com,Proposal Writer,True,False,2025-10-24 00:00:00+0000
+user_0199,org_015,user_0199@acme.co.uk,Account Executive,False,True,2025-10-17 00:00:00+0000
+user_0200,org_015,user_0200@globex.net,Director,False,True,2025-10-12 00:00:00+0000
+user_0201,org_015,user_0201@globex.net,Manager,False,True,2025-10-12 00:00:00+0000
+user_0202,org_015,user_0202@contoso.com,Bid Manager,False,True,2025-11-16 00:00:00+0000
+user_0203,org_015,user_0203@beta.io,Solutions Consultant,False,True,2025-10-06 00:00:00+0000
+user_0204,org_015,user_0204@example.com,Bid Manager,False,True,2025-09-27 00:00:00+0000
+user_0205,org_015,user_0205@beta.io,Account Executive,False,True,2025-09-23 00:00:00+0000
+user_0206,org_015,user_0206@acme.co.uk,Manager,False,True,2025-10-18 00:00:00+0000
+user_0207,org_016,user_0207@acme.co.uk,Solutions Consultant,False,True,2025-09-14 00:00:00+0000
+user_0208,org_016,user_0208@acme.co.uk,Proposal Writer,False,True,2025-10-12 00:00:00+0000
+user_0209,org_016,user_0209@beta.io,Director,False,True,2025-10-02 00:00:00+0000
+user_0210,org_016,user_0210@beta.io,Solutions Consultant,False,True,2025-10-02 00:00:00+0000
+user_0211,org_016,user_0211@beta.io,Solutions Consultant,False,True,2025-11-02 00:00:00+0000
+user_0212,org_016,user_0212@beta.io,Solutions Consultant,False,True,2025-10-17 00:00:00+0000
+user_0213,org_016,user_0213@contoso.com,Account Executive,False,True,2025-10-27 00:00:00+0000
+user_0214,org_016,user_0214@beta.io,Director,False,True,2025-10-09 00:00:00+0000
+user_0215,org_016,user_0215@contoso.com,Manager,False,True,2025-10-15 00:00:00+0000
+user_0216,org_016,user_0216@example.com,Director,False,True,2025-10-22 00:00:00+0000
+user_0217,org_016,user_0217@beta.io,Director,False,True,2025-10-30 00:00:00+0000
+user_0218,org_016,user_0218@acme.co.uk,Manager,False,True,2025-09-25 00:00:00+0000
+user_0219,org_016,user_0219@acme.co.uk,Manager,False,False,2025-10-21 00:00:00+0000
+user_0220,org_016,user_0220@beta.io,Account Executive,False,True,2025-09-05 00:00:00+0000
+user_0221,org_016,user_0221@acme.co.uk,Manager,False,True,2025-10-19 00:00:00+0000
+user_0222,org_016,user_0222@acme.co.uk,Account Executive,False,True,2025-09-29 00:00:00+0000
+user_0223,org_016,user_0223@globex.net,Account Executive,False,True,2025-10-06 00:00:00+0000
+user_0224,org_016,user_0224@contoso.com,Director,False,True,2025-10-31 00:00:00+0000
+user_0225,org_016,user_0225@example.com,Director,False,True,2025-09-24 00:00:00+0000
+user_0226,org_016,user_0226@contoso.com,Account Executive,False,True,2025-09-17 00:00:00+0000
+user_0227,org_017,user_0227@contoso.com,Analyst,True,False,2025-10-30 00:00:00+0000
+user_0228,org_017,user_0228@contoso.com,Account Executive,False,True,2025-09-17 00:00:00+0000
+user_0229,org_017,user_0229@contoso.com,Bid Manager,False,False,2025-10-17 00:00:00+0000
+user_0230,org_017,user_0230@acme.co.uk,Analyst,False,True,2025-10-23 00:00:00+0000
+user_0231,org_017,user_0231@globex.net,Director,False,True,2025-09-30 00:00:00+0000
+user_0232,org_017,user_0232@beta.io,Bid Manager,False,True,2025-10-09 00:00:00+0000
+user_0233,org_017,user_0233@example.com,Bid Manager,False,True,2025-11-09 00:00:00+0000
+user_0234,org_017,user_0234@globex.net,Manager,False,True,2025-09-25 00:00:00+0000
+user_0235,org_017,user_0235@globex.net,Proposal Writer,False,True,2025-11-09 00:00:00+0000
+user_0236,org_018,user_0236@example.com,Account Executive,False,True,2025-10-15 00:00:00+0000
+user_0237,org_018,user_0237@beta.io,Proposal Writer,False,True,2025-09-06 00:00:00+0000
+user_0238,org_018,user_0238@beta.io,Analyst,False,True,2025-10-28 00:00:00+0000
+user_0239,org_018,user_0239@beta.io,Bid Manager,False,True,2025-10-31 00:00:00+0000
+user_0240,org_018,user_0240@contoso.com,Manager,False,True,2025-11-03 00:00:00+0000
+user_0241,org_018,user_0241@example.com,Proposal Writer,False,True,2025-10-12 00:00:00+0000
+user_0242,org_018,user_0242@globex.net,Analyst,False,True,2025-10-24 00:00:00+0000
+user_0243,org_018,user_0243@globex.net,Account Executive,False,False,2025-09-17 00:00:00+0000
+user_0244,org_018,user_0244@acme.co.uk,Account Executive,False,True,2025-10-23 00:00:00+0000
+user_0245,org_018,user_0245@acme.co.uk,Director,False,True,2025-10-28 00:00:00+0000
+user_0246,org_018,user_0246@example.com,Bid Manager,False,True,2025-09-15 00:00:00+0000
+user_0247,org_018,user_0247@acme.co.uk,Account Executive,False,True,2025-09-26 00:00:00+0000
+user_0248,org_018,user_0248@acme.co.uk,Manager,False,True,2025-09-07 00:00:00+0000
+user_0249,org_018,user_0249@contoso.com,Analyst,False,True,2025-09-08 00:00:00+0000
+user_0250,org_019,user_0250@globex.net,Manager,False,True,2025-10-19 00:00:00+0000
+user_0251,org_019,user_0251@globex.net,Bid Manager,False,True,2025-11-10 00:00:00+0000
+user_0252,org_019,user_0252@contoso.com,Bid Manager,False,True,2025-09-24 00:00:00+0000
+user_0253,org_019,user_0253@contoso.com,Analyst,False,True,2025-10-22 00:00:00+0000
+user_0254,org_019,user_0254@example.com,Analyst,False,True,2025-09-30 00:00:00+0000
+user_0255,org_019,user_0255@beta.io,Account Executive,False,True,2025-10-26 00:00:00+0000
+user_0256,org_019,user_0256@globex.net,Manager,False,True,2025-10-20 00:00:00+0000
+user_0257,org_019,user_0257@globex.net,Solutions Consultant,False,True,2025-09-28 00:00:00+0000
+user_0258,org_019,user_0258@acme.co.uk,Solutions Consultant,False,True,2025-11-16 00:00:00+0000
+user_0259,org_020,user_0259@example.com,Account Executive,False,True,2025-10-28 00:00:00+0000
+user_0260,org_020,user_0260@acme.co.uk,Bid Manager,False,True,2025-10-05 00:00:00+0000
+user_0261,org_020,user_0261@example.com,Manager,False,True,2025-11-04 00:00:00+0000
+user_0262,org_020,user_0262@acme.co.uk,Analyst,False,True,2025-10-05 00:00:00+0000
+user_0263,org_020,user_0263@beta.io,Director,False,True,2025-10-17 00:00:00+0000
+user_0264,org_020,user_0264@contoso.com,Account Executive,False,True,2025-10-24 00:00:00+0000
+user_0265,org_020,user_0265@beta.io,Proposal Writer,False,True,2025-10-20 00:00:00+0000
+user_0266,org_020,user_0266@contoso.com,Director,False,True,2025-09-21 00:00:00+0000
+user_0267,org_020,user_0267@beta.io,Proposal Writer,False,True,2025-10-17 00:00:00+0000
+user_0268,org_020,user_0268@contoso.com,Director,False,False,2025-11-02 00:00:00+0000
+user_0269,org_020,user_0269@globex.net,Analyst,False,True,2025-10-21 00:00:00+0000
+user_0270,org_020,user_0270@beta.io,Account Executive,True,False,2025-11-10 00:00:00+0000
+user_0271,org_020,user_0271@beta.io,Proposal Writer,False,True,2025-10-26 00:00:00+0000
+user_0272,org_020,user_0272@acme.co.uk,Proposal Writer,False,True,2025-11-06 00:00:00+0000
+user_0273,org_021,user_0273@example.com,Solutions Consultant,False,True,2025-10-31 00:00:00+0000
+user_0274,org_021,user_0274@contoso.com,Manager,False,True,2025-10-17 00:00:00+0000
+user_0275,org_021,user_0275@globex.net,Proposal Writer,False,False,2025-10-11 00:00:00+0000
+user_0276,org_021,user_0276@globex.net,Solutions Consultant,False,True,2025-10-01 00:00:00+0000
+user_0277,org_021,user_0277@contoso.com,Account Executive,False,True,2025-11-02 00:00:00+0000
+user_0278,org_021,user_0278@globex.net,Account Executive,False,True,2025-10-04 00:00:00+0000
+user_0279,org_021,user_0279@globex.net,Bid Manager,False,True,2025-11-03 00:00:00+0000
+user_0280,org_021,user_0280@contoso.com,Proposal Writer,False,True,2025-10-05 00:00:00+0000
+user_0281,org_021,user_0281@acme.co.uk,Account Executive,False,True,2025-10-10 00:00:00+0000
+user_0282,org_021,user_0282@example.com,Manager,True,False,2025-10-11 00:00:00+0000
+user_0283,org_021,user_0283@acme.co.uk,Proposal Writer,False,True,2025-10-18 00:00:00+0000
+user_0284,org_021,user_0284@globex.net,Bid Manager,False,True,2025-10-23 00:00:00+0000
+user_0285,org_021,user_0285@example.com,Bid Manager,False,True,2025-10-16 00:00:00+0000
+user_0286,org_021,user_0286@beta.io,Manager,False,True,2025-11-15 00:00:00+0000
+user_0287,org_021,user_0287@contoso.com,Account Executive,False,True,2025-10-31 00:00:00+0000
+user_0288,org_021,user_0288@globex.net,Account Executive,False,True,2025-10-01 00:00:00+0000
+user_0289,org_021,user_0289@contoso.com,Analyst,False,True,2025-09-26 00:00:00+0000
+user_0290,org_021,user_0290@globex.net,Manager,False,False,2025-10-16 00:00:00+0000
+user_0291,org_021,user_0291@acme.co.uk,Analyst,False,True,2025-10-12 00:00:00+0000
+user_0292,org_022,user_0292@globex.net,Account Executive,False,False,2025-09-13 00:00:00+0000
+user_0293,org_022,user_0293@acme.co.uk,Proposal Writer,False,True,2025-09-28 00:00:00+0000
+user_0294,org_022,user_0294@globex.net,Bid Manager,False,True,2025-09-17 00:00:00+0000
+user_0295,org_022,user_0295@contoso.com,Analyst,False,True,2025-09-17 00:00:00+0000
+user_0296,org_022,user_0296@globex.net,Account Executive,False,False,2025-10-04 00:00:00+0000
+user_0297,org_022,user_0297@beta.io,Solutions Consultant,False,True,2025-10-31 00:00:00+0000
+user_0298,org_022,user_0298@beta.io,Account Executive,False,True,2025-10-16 00:00:00+0000
+user_0299,org_022,user_0299@example.com,Bid Manager,False,True,2025-10-08 00:00:00+0000
+user_0300,org_022,user_0300@beta.io,Director,False,False,2025-09-29 00:00:00+0000
+user_0301,org_022,user_0301@globex.net,Analyst,False,True,2025-09-11 00:00:00+0000
+user_0302,org_022,user_0302@example.com,Manager,False,True,2025-10-11 00:00:00+0000
+user_0303,org_022,user_0303@beta.io,Bid Manager,False,True,2025-09-18 00:00:00+0000
+user_0304,org_022,user_0304@example.com,Manager,False,True,2025-10-04 00:00:00+0000
+user_0305,org_022,user_0305@globex.net,Manager,False,True,2025-09-11 00:00:00+0000
+user_0306,org_022,user_0306@contoso.com,Account Executive,False,True,2025-10-04 00:00:00+0000
+user_0307,org_022,user_0307@beta.io,Manager,False,True,2025-09-29 00:00:00+0000
+user_0308,org_022,user_0308@example.com,Bid Manager,False,True,2025-10-14 00:00:00+0000
+user_0309,org_022,user_0309@example.com,Account Executive,False,True,2025-09-27 00:00:00+0000
+user_0310,org_023,user_0310@globex.net,Analyst,False,True,2025-11-06 00:00:00+0000
+user_0311,org_023,user_0311@acme.co.uk,Manager,False,True,2025-10-25 00:00:00+0000
+user_0312,org_023,user_0312@contoso.com,Bid Manager,False,True,2025-10-27 00:00:00+0000
+user_0313,org_023,user_0313@globex.net,Director,False,True,2025-10-02 00:00:00+0000
+user_0314,org_023,user_0314@globex.net,Analyst,False,True,2025-09-21 00:00:00+0000
+user_0315,org_023,user_0315@example.com,Proposal Writer,False,True,2025-10-06 00:00:00+0000
+user_0316,org_023,user_0316@contoso.com,Proposal Writer,False,False,2025-10-04 00:00:00+0000
+user_0317,org_023,user_0317@beta.io,Director,False,True,2025-09-17 00:00:00+0000
+user_0318,org_023,user_0318@globex.net,Account Executive,True,False,2025-10-17 00:00:00+0000
+user_0319,org_023,user_0319@globex.net,Proposal Writer,False,True,2025-11-08 00:00:00+0000
+user_0320,org_023,user_0320@globex.net,Solutions Consultant,False,True,2025-09-24 00:00:00+0000
+user_0321,org_023,user_0321@contoso.com,Solutions Consultant,False,True,2025-09-15 00:00:00+0000
+user_0322,org_023,user_0322@beta.io,Proposal Writer,False,True,2025-10-22 00:00:00+0000
+user_0323,org_023,user_0323@acme.co.uk,Solutions Consultant,False,True,2025-10-17 00:00:00+0000
+user_0324,org_023,user_0324@acme.co.uk,Solutions Consultant,False,False,2025-11-09 00:00:00+0000
+user_0325,org_023,user_0325@beta.io,Solutions Consultant,False,True,2025-10-12 00:00:00+0000
+user_0326,org_023,user_0326@acme.co.uk,Account Executive,False,True,2025-09-23 00:00:00+0000
+user_0327,org_023,user_0327@contoso.com,Bid Manager,False,True,2025-09-16 00:00:00+0000
+user_0328,org_023,user_0328@globex.net,Director,False,True,2025-10-28 00:00:00+0000
+user_0329,org_024,user_0329@contoso.com,Solutions Consultant,False,True,2025-10-08 00:00:00+0000
+user_0330,org_024,user_0330@acme.co.uk,Bid Manager,False,False,2025-09-26 00:00:00+0000
+user_0331,org_024,user_0331@example.com,Solutions Consultant,False,True,2025-10-17 00:00:00+0000
+user_0332,org_024,user_0332@beta.io,Bid Manager,False,True,2025-09-26 00:00:00+0000
+user_0333,org_024,user_0333@beta.io,Account Executive,False,True,2025-11-13 00:00:00+0000
+user_0334,org_024,user_0334@contoso.com,Manager,False,True,2025-11-18 00:00:00+0000
+user_0335,org_024,user_0335@contoso.com,Bid Manager,False,False,2025-10-21 00:00:00+0000
+user_0336,org_024,user_0336@acme.co.uk,Manager,False,True,2025-10-07 00:00:00+0000
+user_0337,org_024,user_0337@globex.net,Proposal Writer,False,True,2025-10-29 00:00:00+0000
+user_0338,org_024,user_0338@example.com,Director,False,True,2025-10-10 00:00:00+0000
+user_0339,org_025,user_0339@example.com,Analyst,False,False,2025-10-01 00:00:00+0000
+user_0340,org_025,user_0340@example.com,Manager,False,True,2025-10-06 00:00:00+0000
+user_0341,org_025,user_0341@beta.io,Proposal Writer,False,True,2025-09-11 00:00:00+0000
+user_0342,org_025,user_0342@contoso.com,Analyst,False,True,2025-10-08 00:00:00+0000
+user_0343,org_025,user_0343@example.com,Director,False,True,2025-09-25 00:00:00+0000
+user_0344,org_025,user_0344@globex.net,Director,True,False,2025-10-04 00:00:00+0000
+user_0345,org_025,user_0345@example.com,Account Executive,False,False,2025-10-02 00:00:00+0000
+user_0346,org_025,user_0346@example.com,Proposal Writer,False,True,2025-10-19 00:00:00+0000
+user_0347,org_025,user_0347@example.com,Account Executive,False,True,2025-10-18 00:00:00+0000
+user_0348,org_025,user_0348@example.com,Manager,False,True,2025-09-10 00:00:00+0000
+user_0349,org_025,user_0349@contoso.com,Proposal Writer,False,True,2025-09-13 00:00:00+0000
+user_0350,org_025,user_0350@acme.co.uk,Solutions Consultant,False,True,2025-10-23 00:00:00+0000
+user_0351,org_025,user_0351@beta.io,Bid Manager,False,True,2025-09-04 00:00:00+0000
+user_0352,org_025,user_0352@beta.io,Analyst,False,False,2025-09-22 00:00:00+0000
+user_0353,org_025,user_0353@beta.io,Manager,True,False,2025-10-02 00:00:00+0000
+user_0354,org_025,user_0354@beta.io,Director,False,True,2025-09-14 00:00:00+0000
+user_0355,org_025,user_0355@beta.io,Solutions Consultant,False,True,2025-10-13 00:00:00+0000
